@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerPlus.Web", "..\src\Web\TaskManagerPlus.Web\TaskManagerPlus.Web.csproj", "{257AEC21-B38B-48E4-9D3D-A05AE4F7D5E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerPlus.Web", "..\src\Web\TaskManagerPlus.Web\TaskManagerPlus.Web.csproj", "{257AEC21-B38B-48E4-9D3D-A05AE4F7D5E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerPlus.Application", "..\src\Application\TaskManagerPlus.Application\TaskManagerPlus.Application.csproj", "{1B07BBE9-9D15-48F7-A0C3-246F8D80BB89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerPlus.Application", "..\src\Application\TaskManagerPlus.Application\TaskManagerPlus.Application.csproj", "{1B07BBE9-9D15-48F7-A0C3-246F8D80BB89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerPlus.Domain", "..\src\Domain\TaskManagerPlus.Domain\TaskManagerPlus.Domain.csproj", "{C899CFFA-111A-4DE2-B09E-E119D642CC48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerPlus.Domain", "..\src\Domain\TaskManagerPlus.Domain\TaskManagerPlus.Domain.csproj", "{C899CFFA-111A-4DE2-B09E-E119D642CC48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerPlus.Infrastructure", "..\src\Infrastructure\TaskManagerPlus.Infrastructure\TaskManagerPlus.Infrastructure.csproj", "{471F3263-D2E0-442D-830E-CFE46636019B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerPlus.Infrastructure", "..\src\Infrastructure\TaskManagerPlus.Infrastructure\TaskManagerPlus.Infrastructure.csproj", "{471F3263-D2E0-442D-830E-CFE46636019B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerPlus.Tests", "..\Test\TaskManagerPlus.Tests\TaskManagerPlus.Tests.csproj", "{64C822C8-2914-4AFA-B4E9-EB660F01D421}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{471F3263-D2E0-442D-830E-CFE46636019B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471F3263-D2E0-442D-830E-CFE46636019B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{471F3263-D2E0-442D-830E-CFE46636019B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C822C8-2914-4AFA-B4E9-EB660F01D421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C822C8-2914-4AFA-B4E9-EB660F01D421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C822C8-2914-4AFA-B4E9-EB660F01D421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C822C8-2914-4AFA-B4E9-EB660F01D421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
