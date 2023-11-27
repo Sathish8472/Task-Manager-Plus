@@ -1,12 +1,12 @@
 ﻿using TaskManagerPlus.Domain.Entities;
 using TaskManagerPlus.Domain.Services;
 
-namespace TaskManagerPlus.Tests
+namespace TaskManagerPlus.Domain.Tests.Services
 {
-    public class TaskServiceTests
+    public class WorkServiceTests
     {
         private readonly IWorkService _workService;
-        public TaskServiceTests(IWorkService workService)
+        public WorkServiceTests(IWorkService workService)
         {
             _workService = workService;
         }
